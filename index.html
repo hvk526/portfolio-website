@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>HKVR | Web Developer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header>
+      <div class="logo">HKVR</div>
+      <nav id="nav">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+    </header>
+
+    <section class="hero">
+      <h1>Hello, I'm <span>Hari Krishna</span></h1>
+      <p>Aspiring Web Developer | HTML • CSS • JavaScript</p>
+      <a href="#projects" class="btn">View My Work</a>
+    </section>
+
+    <section id="about" class="section">
+      <h2>About Me</h2>
+      <p>
+        I am a passionate Computer Science student learning web development. I
+        enjoy building responsive and modern websites using HTML, CSS and
+        JavaScript.
+      </p>
+    </section>
+
+    <section id="skills" class="section">
+      <h2>Skills</h2>
+      <div class="skills-container">
+        <div class="skill">HTML</div>
+        <div class="skill">CSS</div>
+        <div class="skill">JavaScript</div>
+        <div class="skill">Git & GitHub</div>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <h2>Projects</h2>
+      <div class="projects-container">
+        <div class="card">
+          <h3>Calculator App</h3>
+          <p>Simple calculator built using JavaScript.</p>
+          <a href="https://github.com/hvk526" target="_blank">View Code</a>
+        </div>
+
+        <div class="card">
+          <h3>To-Do List</h3>
+          <p>Task manager using local storage.</p>
+          <a href="https://github.com/hvk526" target="_blank">View Code</a>
+        </div>
+
+        <div class="card">
+          <h3>Portfolio Website</h3>
+          <p>Responsive personal portfolio hosted on GitHub.</p>
+          <a href="https://github.com/hvk526" target="_blank">View Code</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <h2>Contact Me</h2>
+
+      <!-- Replace action with your Formspree link later -->
+      <form action="https://formspree.io/f/yourID" method="POST">
+        <input type="text" name="name" placeholder="Your Name" required />
+        <input type="email" name="email" placeholder="Your Email" required />
+        <textarea
+          name="message"
+          rows="5"
+          placeholder="Your Message"
+          required
+        ></textarea>
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+    </section>
+
+    <footer>
+      <p>© 2026 Hari Krishna | Built with ❤️</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
